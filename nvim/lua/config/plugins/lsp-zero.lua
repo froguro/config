@@ -92,7 +92,7 @@ return {
 			end)
 
 			require("mason-lspconfig").setup({
-				ensure_installed = { "tsserver", "clangd", "html" }, -- Ensure tsserver is installed
+				ensure_installed = { "ts_ls", "clangd", "html" }, -- Ensure tsserver is installed
 				handlers = {
 					-- this first function is the "default handler"
 					-- it applies to every language server without a "custom handler"
